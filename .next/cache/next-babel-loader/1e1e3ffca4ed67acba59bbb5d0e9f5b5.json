@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var API_URL = 'https://apinovelfull.vercel.app/';","map":{"version":3,"sources":["C:/Users/bakhjem/Desktop/nhattin/nextjstruyen - Copy/config/config.js"],"names":["API_URL"],"mappings":"AAAA,OAAO,IAAMA,OAAO,GAAG,kCAAhB","sourcesContent":["export const API_URL = 'https://apinovelfull.vercel.app/';"]},"metadata":{},"sourceType":"module"}

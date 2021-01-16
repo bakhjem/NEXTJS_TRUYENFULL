@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const API_URL = 'https://apitruyenvv-ov24zkszi.vercel.app/';","map":{"version":3,"sources":["C:/Users/bakhjem/Desktop/nhattin/nextjstruyen/config/config.js"],"names":["API_URL"],"mappings":"AAAA,OAAO,MAAMA,OAAO,GAAG,2CAAhB","sourcesContent":["export const API_URL = 'https://apitruyenvv-ov24zkszi.vercel.app/';"]},"metadata":{},"sourceType":"module"}
