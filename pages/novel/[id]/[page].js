@@ -92,7 +92,7 @@ function Truyen(props) {
                                     <Grid.Column mobile={16} tablet={12} computer={12}>
                                         <Item.Group textAlign='left'>
                                             <Item.Content>
-                                                <Item.Header className='book-title' as='h2'>{props.data.novelsname}</Item.Header>
+                                                <Item.Header className='book-title' as='h1'>{props.data.novelsname}</Item.Header>
                                             </Item.Content>
                                             <Item.Extra textAlign='left' style={{ marginTop: 10 }}>
                                                 <span className='label'>Tác giả:</span> {props.data.author}
@@ -149,7 +149,7 @@ function Truyen(props) {
                                 <Grid.Column mobile={16} tablet={12} computer={12}>
                                     <Item.Group textAlign='center'>
                                         <Item.Content>
-                                            <Item.Header className='book-title_m' as='h2'>{props.data.novelsname}</Item.Header>
+                                            <Item.Header className='book-title_m' as='h1'>{props.data.novelsname}</Item.Header>
                                         </Item.Content>
                                         <Item.Extra textAlign='left' style={{ marginTop: 10 }}>
                                             <span className='label'>Tác giả:</span> {props.data.author}

@@ -52,6 +52,13 @@ fastify.register((fastify, opts, next) => {
                     reply.sent = true
                 })
             })
+            fastify.get('/sitemap/:page/sitemap.xml', (req, reply) => {
+                const actualPage = '/sitemap/[page]/sitemap.xml'
+                const queryParams = { page: req.params.page }
+                return app.render(req.req, reply.res, actualPage, queryParams).then(() => {
+                    reply.sent = true
+                })
+            })
             fastify.get('/search/:id/:page', (req, reply) => {
                 const actualPage = '/search/[id]/[page]'
                 const queryParams = { id: req.params.id, page: req.params.page }

@@ -67,7 +67,7 @@ export default class Index extends React.Component {
         <Container style={{ marginTop: '2em' }}>
           <Grid>
             <Grid.Column mobile={16} tablet={16} computer={16}>
-              <Header className='title-name' as='h2'>Truyện mới cập nhật</Header>
+              <Header className='title-name' as='h1'>Truyện mới cập nhật</Header>
             </Grid.Column>
             {this.props.mangalist.length !== 0 ?
               this.props.mangalist.map(mangalist => (
@@ -99,16 +99,16 @@ export default class Index extends React.Component {
                           <Link
                             as={`/novel/${mangalist.idnovel}1`} href={`/novel/[id]/1`}
                           >
-                            <Header className='book-name' as='h4'><Icon color='white' name='book' /> {mangalist.novelsname}</Header>
+                            <Header className='book-name' as='h2'><Icon color='white' name='book' /> {mangalist.novelsname}</Header>
                           </Link>
                         </Grid.Column>
                         <Grid.Column width={16} style={{ marginTop: 15 }}>
-                          <Header className='book-catalog' size='tiny' as='h6'><Icon color='white' name='pencil' />{mangalist.author}</Header>
+                          <Header className='book-catalog' size='tiny' as='h3'><Icon color='white' name='pencil' />{mangalist.author}</Header>
                         </Grid.Column>
                       </Grid.Row>
                     </Grid.Column>
                     <Grid.Column width={3}>
-                      <Header className='book-catalog' size='tiny' as='h6'>{mangalist.lasterchapter}</Header>
+                      <Header className='book-catalog' size='tiny' as='h4'>{mangalist.lasterchapter}</Header>
                     </Grid.Column>
                   </Grid>
                 </Grid.Column>
